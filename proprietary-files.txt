@@ -13,6 +13,8 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/bt_nvm_loading_2nd.xml
 
 # Camera
+vendor/lib64/libPdSdCore.so
+vendor/lib64/libsnap_vndk.so
 vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/libautoframing_object_tracker.camera.samsung.so
 vendor/lib64/libarcsoft_udc_enhancement.so
@@ -226,6 +228,10 @@ vendor/firmware/Q5_S6E3XA2_AMF756EJ01.dat
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
 # RIL
+vendor/etc/init/init.vendor.rilcommon.rc
+vendor/etc/init/vendor.samsung.rilchip.qcom.rc
+vendor/lib64/libqmiservices-ext.so
+vendor/lib64/libqmiservices-sem-ext.so
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_0.json
