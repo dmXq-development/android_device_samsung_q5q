@@ -1,4 +1,5 @@
 ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+persist.fold_lock_setting_enabled=true
 
 ## Fingerprint
 ro.vendor.fingerprint.type=side
